@@ -1,0 +1,5 @@
+{
+    "TOKEN":"bot_token",
+    "Welcome_channel":"ID",
+    "Leave_channel":"ID"
+}
