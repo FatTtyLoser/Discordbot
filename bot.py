@@ -1,6 +1,9 @@
 import discord
 from discord.ext import commands
+import json
 
+with open('setting.json', mode='r', encoding = 'utf8') as jfile:
+    jdata = json.load(jfile)
 
 intents = discord.Intents.default()
 intents.members = True
@@ -13,16 +16,16 @@ async def on_ready():
 
 @bot.event
 async def on_member_join(member):
-    channel = bot.get_channel(890082452792565801)
+    channel = bot.get_channel(int(jdata['Welcome_channel']))
     await channel.send(f'{member} join!')
 
 @bot.event
 async def on_member_remove(member):
-    channel = bot.get_channel(890082501383573555)
+    channel = bot.get_channel(int(jdata['Leave_channel']))
     await channel.send(f'{member} leave')
 
 @bot.command()
 async def ping(ctx):
     await ctx.send(f'{round(bot.latency*1000)} (ms)')
 
-bot.run('Token')
+bot.run(jdata['TOKEN'])
