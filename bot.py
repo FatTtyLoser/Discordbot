@@ -21,4 +21,8 @@ async def on_member_remove(member):
     channel = bot.get_channel(890082501383573555)
     await channel.send(f'{member} leave')
 
+@bot.command()
+async def ping(ctx):
+    await ctx.send(f'{round(bot.latency*1000)} (ms)')
+
 bot.run('Token')
