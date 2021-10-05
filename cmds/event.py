@@ -20,9 +20,9 @@ class Event(Cog_Extension):
 
     @commands.Cog.listener()
     async def on_message(self, msg):
-        keyword = ['史粉','史黑','機器人','超負荷','蝴蝶']
+        keyword = ['apple','banana','orange','butter','superman']
         if msg.content in keyword and msg.author != self.bot.user:
-            await msg.channel.send('賓果，答對了我是史黑')
+            await msg.channel.send('You are right')
 
 def setup(bot):
     bot.add_cog(Event(bot))
