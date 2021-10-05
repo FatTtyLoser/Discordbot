@@ -1,9 +1,7 @@
 {
-    [
     "TOKEN":"機器人金鑰",
     "Welcome_channel":"頻道ID",
     "Leave_channel":"頻道ID",
     "pic":["照片路徑","照片路徑"],
     "url_pic":["圖片網址","圖片網址"]
-    ]
 }
