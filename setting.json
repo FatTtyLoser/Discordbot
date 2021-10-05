@@ -1,7 +1,14 @@
 {
-    "TOKEN":"機器人金鑰",
-    "Welcome_channel":"頻道ID",
-    "Leave_channel":"頻道ID",
-    "pic":["照片路徑","照片路徑"],
-    "url_pic":["圖片網址","圖片網址"]
+    "TOKEN": "ODg5NzIwODIzMTUyMjYzMjI5.YUlXFg.37haiuLtcPlQ2V9PRbKGTM_gOUc",
+    "Welcome_channel": "890217189209161759",
+    "Leave_channel": "890217234075631626",
+    "time": "1724",
+    "pic": [
+        "C:\\Users\\Jeffery\\Documents\\GitHub\\Fatiger_bot\\pic\\1b6cc1347fa9559c.jpg",
+        "C:\\Users\\Jeffery\\Documents\\GitHub\\Fatiger_bot\\pic\\9286a82e-6acb-5b6f-8591-f4afb6a6b497-960.jpg"
+    ],
+    "url_pic": [
+        "https://cdn.hk01.com/di/media/images/dw/20200831/377077163972759552.jpeg/V47dBJKbgpTNfW4-6pYOgzJ5Vl_PUCnkc3sM7XN7DO0?v=w1920",
+        "https://cdn.hk01.com/di/media/images/dw/20210127/431141658042568704074259.jpeg/5N9dN9OL1ynnf1Ww0EujeF1UpdZpVEqDVj5SK1Y-Uis?v=w1920"
+    ]
 }
