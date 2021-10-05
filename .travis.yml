@@ -1,7 +1,0 @@
-language: python
-python:
-- '3.8'
-jdk:
-  - discord
-# command to run tests
-script: python bot.py
