@@ -1,8 +1,0 @@
-discord
-json
-random
-requests
-beautifulsoup4
-os
-asyncio
-datetime
