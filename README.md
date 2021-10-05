@@ -14,7 +14,7 @@ The gist:
 Each cog is a Python class that subclasses commands.Cog.  
 Every command is marked with the commands.command() decorator.  
 Every listener is marked with the commands.Cog.listener() decorator.  
-* 透過官方說明文件，若要將python中class的方法利用於DisocordBot中，不同類別的function集中在一個class呼叫時，需使用Cogs方法來做，gist告訴我們decorator會有特殊寫法，所以一律套用在整個discordbot中的所有function mudole中。
+* 透過官方說明文件，若要將python中class的方法利用於DisocordBot中，不同類別的function集中在一個class呼叫時，需使用Cogs方法來做，gist告訴我們decorator會有特殊寫法，所以一律套用在整個discordbot中的所有function module中。
 
 ### async
 
